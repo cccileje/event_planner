@@ -50,11 +50,26 @@ const EventPlanner = () => {
             </section>
             {/* Section to highlight app features */}
             <section className='features'>
-                {/* Features content here */}
+                <h2>Features</h2>
+                <ul>
+                    <li>Easy event creation and management</li>
+                    <li>Customizable event templates</li>
+                    <li>Guest list management</li>
+                    <li>Real-time collaboration</li>
+                    <li>Reminders and notifications</li>
+                </ul>
             </section>
             {/* Section to showcase user testimonials */}
             <section className='testimonials'>
-                {/* Testimonials content here */}
+                <h2>Testimonials</h2>
+                <div className='testimonial'>
+                    <p>"Event Planner made organizing my wedding a breeze. Highly recommended!"</p>
+                    <p className='author'>- Emily Johnson</p>
+                </div>
+                <div className='testimonial'>
+                    <p>"I use Event Planner for all my corporate events. It saves me so much time and effort!"</p>
+                    <p className='author'>- John Smith</p>
+                </div>
             </section>
             {/* Section to provide contact info/form */}
             <section className='contact'>
